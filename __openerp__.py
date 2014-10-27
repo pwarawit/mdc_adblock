@@ -20,18 +20,18 @@
 #
 ##############################################################################
 {
-    'name': 'OpenERP Adblock',
+    'name': 'ModernCare Adblock',
     'version': '0.1',
     'category': 'Web',
     'depends': ['mail'],
-    'author': 'Elico Corp',
-    'license': 'AGPL-3',
-    'website': 'https://www.elico-corp.com',
+    'author': 'InfoMobius Co.,Ltd',
     'description': """
-        Module which hides the OpenERP announcement bar.
+        This module will disable OpenERP ad bar - for ModernCare.
     """,
     'images': [],
     'js': ['static/src/js/announcement.js'],
     'installable': True,
     'application': False,
 }
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
